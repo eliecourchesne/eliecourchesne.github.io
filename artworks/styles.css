@@ -1,0 +1,123 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #fefaf3; /* Light cream background */
+    color: #1d3557; /* Navy text */
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Header Styles */
+header {
+    background: #e8dcc8; /* Brownish neutral background */
+    padding: 20px 0;
+    border-bottom: 2px solid #b08968; /* Accent in brownish neutral */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #1d3557; /* Navy text */
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #1d3557; /* Navy text */
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #b08968; /* Brownish neutral hover */
+}
+
+
+/* Artwork Details Section */
+#artwork-details {
+    padding: 50px 0;
+    background: #fefaf3; /* Light cream background */
+    color: #1d3557; /* Navy text */
+}
+
+#artwork-details h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #1d3557; /* Navy text */
+}
+
+.artwork-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.artwork-image img {
+    max-width: 100%;
+    height: 600px;
+    border: 2px solid #e8dcc8; /* Neutral border */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.artwork-info {
+    max-width: 400px;
+    font-size: 16px;
+    line-height: 1.8;
+    color: #495057; /* Subtle navy for details */
+}
+
+.artwork-info p {
+    margin: 10px 0;
+}
+
+#exhibition-details {
+    background-color: #f9f5f0; /* Light cream color */
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+#exhibition-details h2 {
+    color: #2a3d66; /* Navy text */
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#exhibition-details p {
+    color: #4b4b4b; /* Neutral brownish-gray */
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+#reflets-artworks {
+    background-color: #f9f5f0; /* Light cream color */
+    padding: 2rem;
+    border-radius: 10px;
+
+}
+
+#reflets-artworks h2 {
+    color: #2a3d66; /* Navy text */
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+#reflets-artworks p {
+    color: #4b4b4b; /* Neutral brownish-gray */
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
